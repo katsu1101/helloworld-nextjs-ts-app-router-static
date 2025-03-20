@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello World",
+    "content": "これはHello Worldの記事の内容です。"
+  },
+  {
+    "slug": "nextjs-intro",
+    "title": "Next.js 入門ガイド",
+    "content": "Next.jsを学ぶための基本ガイドです。"
+  },
+  {
+    "slug": "tailwind-best-practices",
+    "title": "Tailwind CSSベストプラクティス",
+    "content": "Tailwindを効果的に使うための実践テクニックを紹介します。"
+  }
+]
