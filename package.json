@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "cross-env NEXT_PUBLIC_BASE_PATH=/helloworld-nextjs-ts-app-router-static next build",
     "postbuild": "echo > docs/.nojekyll",
     "deploy": "npm run build && gh-pages -d docs -f --add"
   },
@@ -14,6 +14,7 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

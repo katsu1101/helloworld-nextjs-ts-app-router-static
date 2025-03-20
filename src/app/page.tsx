@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import Link  from "next/link";
-import { useRouter } from "next/router";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Home() {
-  const { basePath } = useRouter(); // Next.js の `basePath` を取得
 
   return (
     <div
