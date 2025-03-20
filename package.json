@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o docs",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d docs -f"
   },
   "dependencies": {
     "next": "15.2.3",
