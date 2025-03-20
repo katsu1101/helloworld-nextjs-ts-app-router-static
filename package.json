@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export -o docs",
+    "build": "next build",
     "postbuild": "echo > docs/.nojekyll",
-    "deploy": "gh-pages -d docs -f"
+    "deploy": "npm run build && gh-pages -d docs -f --add"
   },
   "dependencies": {
     "next": "15.2.3",
