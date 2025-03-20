@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o docs",
+    "postbuild": "echo > docs/.nojekyll",
     "deploy": "gh-pages -d docs -f"
   },
   "dependencies": {
